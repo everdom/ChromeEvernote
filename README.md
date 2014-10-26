@@ -3,6 +3,9 @@ ChromeEvernote
 
 chrome上印象笔记(evernote)的packaged app
 
+![screenshot1](https://raw.github.com/everdom/ChromeEvernote/master/images/evernote preview2.png)
+![screenshot1](https://raw.github.com/everdom/ChromeEvernote/master/images/evernote preview1.png)
+
 # 安装：
 1. 从google web store安装：
 https://chrome.google.com/webstore/detail/%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0/lgeofkgcdepmadnmoendmocgolpbkfmp?utm_source=chrome-ntp-launcher
