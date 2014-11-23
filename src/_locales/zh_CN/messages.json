@@ -1,0 +1,18 @@
+{
+	"extName":{
+		"message": "印象笔记",
+		"description": "应用名称"
+	},	
+	"description":{
+		"message": "印象笔记打包应用",
+		"description": ""
+	},
+	"website": {
+		"message":"https://app.yinxiang.com/Home.action",
+		"description": "印象笔记地址"
+	},
+	"loading": {
+		"message":"正在载入...",
+		"description": ""
+	}
+}

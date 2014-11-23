@@ -1,7 +1,8 @@
 {
-    "name": "印象笔记",
+    "name": "__MSG_extName__",
+    "default_locale": "en",
     "author":"everdom <everdom.g@gmail.com>",
-    "description": "Packaged App 版本的印象笔记",
+    "description": "__MSG_description__",
     "version": "0.1",
     "manifest_version": 2,
     "app": {
@@ -9,8 +10,8 @@
             "scripts": ["background.js"]
         }
     },
-    "icons": { "16": "evernote-16.png", "128": "evernote-128.png" },
+    "icons": { "16": "evernote-16.png", "128": "evernote-128.png" },    
     "permissions" : [
         "webview"
-    ]
+    ]    
 }

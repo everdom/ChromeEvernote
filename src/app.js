@@ -1,15 +1,17 @@
 var width = parseInt(screen.availWidth * 0.8);
 var height = parseInt(screen.availHeight * 0.8);
 window.onload = function(){
-    var webview = document.getElementById("yinxiang");
+    var webview = document.getElementById("evernote");
+    console.log(chrome.i18n.getMessage("website"));
+    webview.src = chrome.i18n.getMessage("website");
     //var indicator = document.querySelector(".indicator");
-      
+    document.title = chrome.i18n.getMessage("extName");
     var loadstart = function() {
-      document.title = "正在加载...";
+      document.title = chrome.i18n.getMessage("loading");
      // indicator.innerText = "正在加载...";
     }
     var loadstop = function() {
-      document.title = "印象笔记";
+      document.title = chrome.i18n.getMessage("extName");
       //indicator.innerText = "";
     }
     webview.style.width = width+"px";

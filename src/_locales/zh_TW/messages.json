@@ -1,0 +1,18 @@
+{
+	"extName":{
+		"message": "印象筆記",
+		"description": "應用名稱"
+	},
+	"description":{
+		"message": "印象筆記打包應用",
+		"description": ""
+	},
+	"website": {
+		"message":"https://www.evernote.com/Login.action",
+		"description": "印象筆記網址"
+	},
+	"loading": {
+		"message":"正在載入...",
+		"description": ""
+	}
+}

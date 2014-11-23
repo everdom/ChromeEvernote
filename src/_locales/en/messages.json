@@ -1,0 +1,18 @@
+{
+	"extName":{
+		"message": "Evernote",
+		"description": "app name"
+	},
+	"description":{
+		"message": "Evernote Packaged App",
+		"description": ""
+	},
+	"website": {
+		"message":"https://www.evernote.com/Login.action",
+		"description": "evernote website"
+	},
+	"loading": {
+		"message":"Loading...",
+		"description": ""
+	}
+}
