@@ -3,8 +3,9 @@ ChromeEvernote
 
 chrome上印象笔记(evernote)的packaged app
 
-![screenshot1](https://raw.github.com/everdom/ChromeEvernote/master/images/evernote preview2.png)
 ![screenshot1](https://raw.github.com/everdom/ChromeEvernote/master/images/evernote preview1.png)
+![screenshot1](https://raw.github.com/everdom/ChromeEvernote/master/images/evernote preview2.png)
+![screenshot1](https://raw.github.com/everdom/ChromeEvernote/master/images/evernote preview3.png)
 
 # 安装：
 1. 从google web store安装：
