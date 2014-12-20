@@ -1,5 +1,5 @@
-var width = parseInt(screen.availWidth * 0.8);
-var height = parseInt(screen.availHeight * 0.8);
+//var width = parseInt(screen.availWidth * 0.8);
+//var height = parseInt(screen.availHeight * 0.8);
 window.onload = function(){
     var webview = document.getElementById("evernote");
     console.log(chrome.i18n.getMessage("website"));
@@ -14,8 +14,8 @@ window.onload = function(){
       document.title = chrome.i18n.getMessage("extName");
       //indicator.innerText = "";
     }
-    webview.style.width = width+"px";
-    webview.style.height = height+"px";
+    webview.style.width = window.innerWidth;
+    webview.style.height = window.innerHeight;
 
     webview.addEventListener("loadstart", loadstart);
     webview.addEventListener("loadstop", loadstop);
@@ -24,4 +24,9 @@ window.onload = function(){
         window.open(e.targetUrl);
     }
     webview.addEventListener('newwindow', newwindow);
+}
+
+window.onresize = function(){
+    webview.style.width = window.innerWidth;
+    webview.style.height = window.innerHeight;
 }
