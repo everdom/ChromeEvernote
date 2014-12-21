@@ -14,8 +14,8 @@ window.onload = function(){
       document.title = chrome.i18n.getMessage("extName");
       //indicator.innerText = "";
     }
-    webview.style.width = window.innerWidth;
-    webview.style.height = window.innerHeight;
+    webview.style.width = window.innerWidth+"px";
+    webview.style.height = window.innerHeight+"px";    
 
     webview.addEventListener("loadstart", loadstart);
     webview.addEventListener("loadstop", loadstop);
@@ -27,6 +27,7 @@ window.onload = function(){
 }
 
 window.onresize = function(){
-    webview.style.width = window.innerWidth;
-    webview.style.height = window.innerHeight;
+    var webview = document.getElementById("evernote");
+    webview.style.width = window.innerWidth+"px";
+    webview.style.height = window.innerHeight+"px";
 }
